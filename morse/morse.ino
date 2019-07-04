@@ -16,8 +16,6 @@ void loop() {
     n++;
   }
 
-  if (temp) {
-    //查询Morse电码表并进行转换
     for (i = 0; i < n; i++)
     {
       Morse.transfor(str[i]);
@@ -25,4 +23,3 @@ void loop() {
       delay(2);
   }
   
-}
